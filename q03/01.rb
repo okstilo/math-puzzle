@@ -1,6 +1,4 @@
-#! /bin/sh
-exec ruby -S -x "$0" "$@"
-#! ruby
+#!/usr/bin/env ruby
 
 N = 100
 cards = Array.new(N, false)

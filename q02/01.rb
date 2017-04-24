@@ -1,6 +1,4 @@
-#! /bin/sh
-exec ruby -S -x "$0" "$@"
-#! ruby
+#!/usr/bin/env ruby
 
 op = ["+", "-", "*", "/", ""]
 for i in 1000..9999 do

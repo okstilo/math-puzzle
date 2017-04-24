@@ -1,6 +1,4 @@
-#! /bin/sh
-exec ruby -S -x "$0" "$@"
-#! ruby
+#!/usr/bin/env ruby
 
 num = 11
 
